@@ -35,6 +35,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+     backdrop-filter: blur(20px);
 }
 
  .img-2 {
@@ -45,6 +46,9 @@ body {
  }
      
 .main {
-    background: linear-gradient( to bottom, rgb(0, 0, 0) , rgb(124, 120, 120));
+   background-image: url(../img/akatsuki-logo-akatsuki-wallpaper-preview.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 120vw;
+   
    
  }
