@@ -1,0 +1,48 @@
+.rojo_2 , .rojo_1, .amarillo_1, .amarillo_2, .verde_1 , .verde_2 {
+    
+    height: 100px;
+    width: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+     border-radius: 50%;
+     margin:10px;
+     color:rgb(207, 135, 0);
+     
+     
+}
+
+
+
+
+
+.rojo_2 , .rojo_1{
+    background-color: rgba(255, 0, 0,0.2);
+   
+    
+}
+
+.amarillo_1, .amarillo_2 {
+background-color: rgba(255, 255, 0,0.2);
+}
+
+.verde_1 , .verde_2 {
+    background-color: rgba(3, 192, 3,0.2);
+}
+
+
+/*.flex_1 , .flex_2{
+    
+    background: rgb(207, 135, 0);
+    width: 120px;
+    height: 340px;
+    
+   
+}*/
+
+.flex_1{
+    margin-bottom: 200px;
+}
+
+body {
+   background-color: rgb(56, 54, 54);
+}
