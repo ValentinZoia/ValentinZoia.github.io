@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+nav {
+    top: 0;
+    position: sticky;
+    z-index:3;
+    background-color: #F2F2F2;;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid #F2F2F2;
+    
+    height:100px;
+}
+
+.nav-bar {
+    top: 0;
+    position:sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-size: 24px;
+    height: 100px;
+    width: 70%;
+    align-items:center;
+    padding-right:0;
+    margin-right:0;
+}
+
+.title{
+    padding-top:25px;
+    padding-left:30px;
+    font-size:50px;
+    font-family: 'Josefin Sans', sans-serif;
+    height:80px;
+    width:500px;
+    color:#0D0D0D;
+    
+}
+
+.nav-bar li{
+    list-style:none;
+
+}
+
+.nav-bar a {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 62px;
+    text-decoration: none;
+    padding-top: 40px;
+    transition: background-color .5s, color .5s, font-size .1s;
+    color: #0D0D0D;
+}
+
+#selected{
+    height:65px;
+}
+
+.items:hover{
+    color:#0D0D0D;
+    font-size: 26px;
+   
+    border-bottom: solid 3px #f84600;
+}
+
+.title:hover{
+    cursor: default;
+}
+
+i{
+    padding-right:20px;
+}
+
+
+
+body {
+    background-color: #0D0D0D;
+    color :#F2F2F2;
+}
+
+.container1{
+    /*background-color: rgba(0,100,100,.3);*/
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+  margin-bottom: 10px;
+    color:white;
+    border-radius:20px;
+    height: 80vh;
+    width:45%;
+    padding:8px;
+    text-align:center;
+    border:1px solid #000;
+    float:left;
+    margin-left:2%;
+    margin-top:2%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container1 h4{
+    
+    font-size:17px;
+    line-height:25px;
+    font-family:sans-serif;
+  
+}
+
+.container1 h1 {
+   padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom:2px solid black;
+    width:350px;
+    
+}
+
+.memoria-tec-img {
+    float: right;
+    margin-right: 200px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    margin-top:5%;
+}
+
+.container2{
+    float:right;
+    margin-top:2%;
+    height: 34vh;
+    width: 45%;
+    margin-right: 2%;
+    background:  #ff6a00;
+    border-radius:20px;
+    font-family:sans-serif;
+
+}
+
+ .container2 h2 {
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom:2px solid black;
+    width:65%;
+    margin:auto;
+
+}
+
+
+.container3{
+    float:right;
+    width: 45%;
+    height: 42.5vh;
+    margin-top:1%;
+    margin-right: 2%;
+    background: #ee0979;
+    border-radius:20px;
+    font-family:sans-serif;
+  
+}
+
+.container3 h2{
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom:2px solid black;
+    width:38%;
+    margin:auto;
+}
+
+h4{
+    margin-top: 2%;
+    
+}
+
+div{
+overflow: auto;
+padding:8px;
+}
