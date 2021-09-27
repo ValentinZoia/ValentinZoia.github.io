@@ -305,7 +305,7 @@ section {
     background-image: url(../img/herramientas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 850px; /*87%*/
+    height: 87%;
     border-bottom:2px solid black;
     animation:1.5s ease-out img-intro;
 }
